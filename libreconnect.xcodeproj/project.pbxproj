@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005184002C31BC6A0002D754 /* libreconnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005183FF2C31BC6A0002D754 /* libreconnectApp.swift */; };
+		005184022C31BC6A0002D754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005184012C31BC6A0002D754 /* ContentView.swift */; };
+		005184042C31BC6B0002D754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005184032C31BC6B0002D754 /* Assets.xcassets */; };
+		005184072C31BC6B0002D754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005184062C31BC6B0002D754 /* Preview Assets.xcassets */; };
+		005184112C31BC6B0002D754 /* libreconnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005184102C31BC6B0002D754 /* libreconnectTests.swift */; };
+		0051841B2C31BC6B0002D754 /* libreconnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051841A2C31BC6B0002D754 /* libreconnectUITests.swift */; };
+		0051841D2C31BC6B0002D754 /* libreconnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051841C2C31BC6B0002D754 /* libreconnectUITestsLaunchTests.swift */; };
+		0051842B2C31CB610002D754 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051842A2C31CB610002D754 /* HealthKitManager.swift */; };
+		0051842E2C327FB50002D754 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051842D2C327FB50002D754 /* ActivityManager.swift */; };
+		005184302C327FD30002D754 /* HealthKitBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051842F2C327FD30002D754 /* HealthKitBaseManager.swift */; };
+		005184322C3286450002D754 /* HeartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005184312C3286450002D754 /* HeartManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0051840D2C31BC6B0002D754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005183F42C31BC6A0002D754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005183FB2C31BC6A0002D754;
+			remoteInfo = libreconnect;
+		};
+		005184172C31BC6B0002D754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005183F42C31BC6A0002D754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005183FB2C31BC6A0002D754;
+			remoteInfo = libreconnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005183FC2C31BC6A0002D754 /* libreconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libreconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005183FF2C31BC6A0002D754 /* libreconnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libreconnectApp.swift; sourceTree = "<group>"; };
+		005184012C31BC6A0002D754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		005184032C31BC6B0002D754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005184062C31BC6B0002D754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0051840C2C31BC6B0002D754 /* libreconnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libreconnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005184102C31BC6B0002D754 /* libreconnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libreconnectTests.swift; sourceTree = "<group>"; };
+		005184162C31BC6B0002D754 /* libreconnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libreconnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0051841A2C31BC6B0002D754 /* libreconnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libreconnectUITests.swift; sourceTree = "<group>"; };
+		0051841C2C31BC6B0002D754 /* libreconnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libreconnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		005184292C31C22D0002D754 /* libreconnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = libreconnect.entitlements; sourceTree = "<group>"; };
+		0051842A2C31CB610002D754 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		0051842C2C31CD270002D754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0051842D2C327FB50002D754 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		0051842F2C327FD30002D754 /* HealthKitBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitBaseManager.swift; sourceTree = "<group>"; };
+		005184312C3286450002D754 /* HeartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005183F92C31BC6A0002D754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005184092C31BC6B0002D754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005184132C31BC6B0002D754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005183F32C31BC6A0002D754 = {
+			isa = PBXGroup;
+			children = (
+				005183FE2C31BC6A0002D754 /* libreconnect */,
+				0051840F2C31BC6B0002D754 /* libreconnectTests */,
+				005184192C31BC6B0002D754 /* libreconnectUITests */,
+				005183FD2C31BC6A0002D754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005183FD2C31BC6A0002D754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005183FC2C31BC6A0002D754 /* libreconnect.app */,
+				0051840C2C31BC6B0002D754 /* libreconnectTests.xctest */,
+				005184162C31BC6B0002D754 /* libreconnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005183FE2C31BC6A0002D754 /* libreconnect */ = {
+			isa = PBXGroup;
+			children = (
+				0051842C2C31CD270002D754 /* Info.plist */,
+				005184292C31C22D0002D754 /* libreconnect.entitlements */,
+				005183FF2C31BC6A0002D754 /* libreconnectApp.swift */,
+				005184012C31BC6A0002D754 /* ContentView.swift */,
+				005184032C31BC6B0002D754 /* Assets.xcassets */,
+				005184052C31BC6B0002D754 /* Preview Content */,
+				0051842A2C31CB610002D754 /* HealthKitManager.swift */,
+				0051842D2C327FB50002D754 /* ActivityManager.swift */,
+				0051842F2C327FD30002D754 /* HealthKitBaseManager.swift */,
+				005184312C3286450002D754 /* HeartManager.swift */,
+			);
+			path = libreconnect;
+			sourceTree = "<group>";
+		};
+		005184052C31BC6B0002D754 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				005184062C31BC6B0002D754 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0051840F2C31BC6B0002D754 /* libreconnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				005184102C31BC6B0002D754 /* libreconnectTests.swift */,
+			);
+			path = libreconnectTests;
+			sourceTree = "<group>";
+		};
+		005184192C31BC6B0002D754 /* libreconnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0051841A2C31BC6B0002D754 /* libreconnectUITests.swift */,
+				0051841C2C31BC6B0002D754 /* libreconnectUITestsLaunchTests.swift */,
+			);
+			path = libreconnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005183FB2C31BC6A0002D754 /* libreconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005184202C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnect" */;
+			buildPhases = (
+				005183F82C31BC6A0002D754 /* Sources */,
+				005183F92C31BC6A0002D754 /* Frameworks */,
+				005183FA2C31BC6A0002D754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libreconnect;
+			productName = libreconnect;
+			productReference = 005183FC2C31BC6A0002D754 /* libreconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0051840B2C31BC6B0002D754 /* libreconnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005184232C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnectTests" */;
+			buildPhases = (
+				005184082C31BC6B0002D754 /* Sources */,
+				005184092C31BC6B0002D754 /* Frameworks */,
+				0051840A2C31BC6B0002D754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0051840E2C31BC6B0002D754 /* PBXTargetDependency */,
+			);
+			name = libreconnectTests;
+			productName = libreconnectTests;
+			productReference = 0051840C2C31BC6B0002D754 /* libreconnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		005184152C31BC6B0002D754 /* libreconnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005184262C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnectUITests" */;
+			buildPhases = (
+				005184122C31BC6B0002D754 /* Sources */,
+				005184132C31BC6B0002D754 /* Frameworks */,
+				005184142C31BC6B0002D754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005184182C31BC6B0002D754 /* PBXTargetDependency */,
+			);
+			name = libreconnectUITests;
+			productName = libreconnectUITests;
+			productReference = 005184162C31BC6B0002D754 /* libreconnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005183F42C31BC6A0002D754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					005183FB2C31BC6A0002D754 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0051840B2C31BC6B0002D754 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 005183FB2C31BC6A0002D754;
+					};
+					005184152C31BC6B0002D754 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 005183FB2C31BC6A0002D754;
+					};
+				};
+			};
+			buildConfigurationList = 005183F72C31BC6A0002D754 /* Build configuration list for PBXProject "libreconnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005183F32C31BC6A0002D754;
+			productRefGroup = 005183FD2C31BC6A0002D754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005183FB2C31BC6A0002D754 /* libreconnect */,
+				0051840B2C31BC6B0002D754 /* libreconnectTests */,
+				005184152C31BC6B0002D754 /* libreconnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005183FA2C31BC6A0002D754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005184072C31BC6B0002D754 /* Preview Assets.xcassets in Resources */,
+				005184042C31BC6B0002D754 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0051840A2C31BC6B0002D754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005184142C31BC6B0002D754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005183F82C31BC6A0002D754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005184322C3286450002D754 /* HeartManager.swift in Sources */,
+				0051842E2C327FB50002D754 /* ActivityManager.swift in Sources */,
+				005184302C327FD30002D754 /* HealthKitBaseManager.swift in Sources */,
+				005184022C31BC6A0002D754 /* ContentView.swift in Sources */,
+				005184002C31BC6A0002D754 /* libreconnectApp.swift in Sources */,
+				0051842B2C31CB610002D754 /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005184082C31BC6B0002D754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005184112C31BC6B0002D754 /* libreconnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005184122C31BC6B0002D754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0051841D2C31BC6B0002D754 /* libreconnectUITestsLaunchTests.swift in Sources */,
+				0051841B2C31BC6B0002D754 /* libreconnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051840E2C31BC6B0002D754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005183FB2C31BC6A0002D754 /* libreconnect */;
+			targetProxy = 0051840D2C31BC6B0002D754 /* PBXContainerItemProxy */;
+		};
+		005184182C31BC6B0002D754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005183FB2C31BC6A0002D754 /* libreconnect */;
+			targetProxy = 005184172C31BC6B0002D754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0051841E2C31BC6B0002D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0051841F2C31BC6B0002D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005184212C31BC6B0002D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = libreconnect/libreconnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"libreconnect/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = libreconnect/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathael.fr.libreconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005184222C31BC6B0002D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = libreconnect/libreconnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"libreconnect/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = libreconnect/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Cette application utilise HealthKit pour lire vos données de santé et fournir des informations personnalisées.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathael.fr.libreconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		005184242C31BC6B0002D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LUYFSGU64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.nathael.libreconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libreconnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/libreconnect";
+			};
+			name = Debug;
+		};
+		005184252C31BC6B0002D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LUYFSGU64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.nathael.libreconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libreconnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/libreconnect";
+			};
+			name = Release;
+		};
+		005184272C31BC6B0002D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LUYFSGU64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.nathael.libreconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libreconnect;
+			};
+			name = Debug;
+		};
+		005184282C31BC6B0002D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LUYFSGU64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.nathael.libreconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libreconnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005183F72C31BC6A0002D754 /* Build configuration list for PBXProject "libreconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0051841E2C31BC6B0002D754 /* Debug */,
+				0051841F2C31BC6B0002D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005184202C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005184212C31BC6B0002D754 /* Debug */,
+				005184222C31BC6B0002D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005184232C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005184242C31BC6B0002D754 /* Debug */,
+				005184252C31BC6B0002D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005184262C31BC6B0002D754 /* Build configuration list for PBXNativeTarget "libreconnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005184272C31BC6B0002D754 /* Debug */,
+				005184282C31BC6B0002D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005183F42C31BC6A0002D754 /* Project object */;
+}
